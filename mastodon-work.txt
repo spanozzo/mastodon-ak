@@ -1,0 +1,44 @@
+{
+"subject" : "mailto: <panuci@mail.com>",
+"publicKey" : "BDENeYU7QrC2CqqvWB1uQiIZIu8lIchXdnYW64QQs2vq5VFv71W454DUMT9fSixd-aQoHLYqpvvq17ZaEN7EVZU",
+"privateKey" : "Ywt20q8UORxLwzkmxn3OPqjTAcRhF1zxPvyj7IluiS0"
+}
+
+
+(Utenti già registrati)
+Richieste all'API:
+	Richiesta timeline pubblica:
+	https://docs.joinmastodon.org/methods/timelines/#public
+	Richiesta timeline hashtag:
+	https://docs.joinmastodon.org/methods/timelines/#tag
+	Richiesta timeline personale:
+	https://docs.joinmastodon.org/methods/timelines/#home
+	Pubblicazione status:
+	https://docs.joinmastodon.org/methods/statuses/#create
+	Modifica status:
+	https://docs.joinmastodon.org/methods/statuses/#edit
+	Eliminazione status:
+	https://docs.joinmastodon.org/methods/statuses/#delete	
+	Visualizzazione status account:
+	https://docs.joinmastodon.org/methods/accounts/#statuses
+	Visualizzazione account:
+	https://docs.joinmastodon.org/methods/accounts/#get
+	Boost status:
+	https://docs.joinmastodon.org/methods/statuses/#boost
+	Favourite status:
+	https://docs.joinmastodon.org/methods/statuses/#favourite
+	Ricerca account:
+	https://docs.joinmastodon.org/methods/accounts/#search
+	Ricerca generica:
+	https://docs.joinmastodon.org/methods/search/#v2
+	Follow/unfollow account: https://docs.joinmastodon.org/methods/accounts/#follow
+	https://docs.joinmastodon.org/methods/accounts/#unfollow
+
+
+
+Cluster:
+- es. configurazione di tesi: - c5.2xlarge per applicativo: 146.44$/m (istanza spot)
+			- c5.large per generatore: 41.57$/m (istanza spot)
+			- t3.large per prometheus (e altri utils?): 37.66$/m (istanza spot)
+			- eks: 73$/m
+	-> mettere generatore in utils? (o contrario, ma in generale accorpare ad una sola istanza)

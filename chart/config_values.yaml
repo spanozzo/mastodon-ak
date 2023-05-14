@@ -19,7 +19,7 @@ mastodon:
     # @ignored
     username: panuci
     # @ignored
-    email: panuci@example.com
+    email: panuci@mail.com
   cron:
     # -- run `tootctl media remove` every week
     removeMedia:
